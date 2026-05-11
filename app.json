@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "Budget-Tracker",
+    "slug": "budget-tracker",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.pratyansh.budgettracker",
+      "versionCode": 3,
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "08ef62d3-6fc2-4423-a548-72eb0d663bc3"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/08ef62d3-6fc2-4423-a548-72eb0d663bc3",
+      "fallbackToCacheTimeout": 0,
+      "forceUpdate":true
+    },
+    "plugins": [
+      "expo-mail-composer"
+    ]
+  }
+}
